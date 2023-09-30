@@ -1,6 +1,29 @@
-.titulo-customizado{
-    color:blue
+.titulo-navegacao{
+    color:#1E1E1E;
+    font-size: 24px;
+    letter-spacing: -0.015rem;
+    font-weight: bold;
 }
-.centralizar{
-    text-align: center;
+
+.links-navegacao{
+    color: #1E1E1E;
+    font-size: 16px;
+    letter-spacing: -0.015rem;
+}
+.botao-contato-navegacao{
+    color: #FEFEFE;
+    width: 126px;
+    height: 56px;
+    background-color: #219653;
+    border-radius: 16px;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.16rem;
+}
+
+.section-hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FEFEFE;
 }
