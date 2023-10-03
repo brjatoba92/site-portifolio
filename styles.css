@@ -3,10 +3,20 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #FEFEFE;
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 58px;
+    font-size: 56px;
+    color:#1E1E1E;
+    margin: 0px;
+    padding: 0px;
 }
 
 button{
@@ -58,7 +68,6 @@ button{
     justify-content: flex-start;
     width: 100vw;
     height: 100vh;
-    background-color: #FEFEFE;
 }
 
 .hero-info{
@@ -105,4 +114,57 @@ button{
     width: 36px;
     height: 36px;
     cursor: pointer;
+}
+
+.section-abilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+h2.verde{
+    color: #219653;
+}
+
+.ability-card-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 36px;
+    margin-top: 48px;
+}
+
+.ability-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 312px;
+    height: 690px;
+    border-width: 1px;
+    border-color: #d9d9d9;
+    border-radius: 12px;
+    border-style: solid;
+    padding: 12px;
+}
+
+.ability-card-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #219653;
+}
+
+.ability-card-icon-img{
+    width: 40px;
+    height: 40px;
 }
