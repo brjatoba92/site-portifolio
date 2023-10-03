@@ -4,6 +4,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #FEFEFE;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1{
@@ -19,6 +21,13 @@ h2{
     padding: 0px;
 }
 
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
 button{
     color: #FEFEFE;
     height: 56px;
@@ -32,6 +41,11 @@ button{
     padding-right: 12px;
     cursor: pointer;
    
+}
+li{
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 500;
 }
 
 .titulo-navegacao{
@@ -66,8 +80,8 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 90vh;
 }
 
 .hero-info{
@@ -151,7 +165,7 @@ h2.verde{
     border-color: #d9d9d9;
     border-radius: 12px;
     border-style: solid;
-    padding: 12px;
+    padding-top: 16px;
 }
 
 .ability-card-icons-container{
@@ -162,9 +176,21 @@ h2.verde{
     height: 80px;
     border-radius: 40px;
     background-color: #219653;
+    margin-bottom: 12px;
 }
 
 .ability-card-icon-img{
     width: 40px;
     height: 40px;
+}
+
+.ability-card-subtitle{
+    font-size: 16px;
+    margin: 8px;
+    text-align:center;
+    max-width: 70%;
+}
+
+.ability-list{
+    width: 90%;
 }
