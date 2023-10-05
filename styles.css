@@ -6,6 +6,7 @@ body{
     background-color: #FEFEFE;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
 h1{
@@ -48,6 +49,16 @@ li{
     font-size: 20px;
     margin-bottom: 12px;
     font-weight: 500;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 156px;
+    width: 100vw;
+    background-color: #D9D9D9;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo-navegacao{
@@ -357,4 +368,27 @@ h2.verde{
     width: 24px;
     height: 24px;
     margin-right: 16px;
+}
+
+.section-footer-content{
+    display: flex;
+    flex-direction: row;
+    width: 1216px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-footer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.section-footer-icons{
+    width: 36px;
+    height: 36px;
+    margin-right: 60px;
 }
