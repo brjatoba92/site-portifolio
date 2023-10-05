@@ -28,6 +28,8 @@ h5{
     margin: 0px;
 }
 
+
+
 button{
     color: #FEFEFE;
     height: 56px;
@@ -276,3 +278,61 @@ h2.verde{
     width: 24px;
     height: 24px;
 }
+
+.section-experiencias{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.section-experiencias-card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 800px;
+    border-radius: 16px;
+    background: #D9D9D9;
+    margin-top: 24px;
+    padding: 24px;
+}
+
+.section-experiencias-card-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 16px;
+
+}
+
+.section-experiencias-card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.section-experiencias-card-subtitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 4px 0px 0px 0px;
+}
+
+.section-experiencias-card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin: 6px 0px 0px 0px;
+}
+
+.section-experiencias-icons{
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+}
+
