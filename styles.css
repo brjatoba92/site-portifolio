@@ -336,3 +336,25 @@ h2.verde{
     border-radius: 12px;
 }
 
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 0x;
+}
+
+.section-contact-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-contact-item-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
