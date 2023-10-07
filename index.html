@@ -3,6 +3,7 @@
     <head>
         <title>Bruno Jatobá</title>
         <link rel="stylesheet" href="styles.css"/>
+        <script src="index.js"></script>
     </head>
     <body>
         <div class="root-container">
@@ -11,17 +12,17 @@
                     <div class="barra-navegacao">
                         <h2 class="titulo-navegacao"> Bruno Jatobá </h2>
                         <div>
-                            <a class="links-navegacao">Habilidades</a>
-                            <a class="links-navegacao">Portifolio</a>
-                            <a class="links-navegacao">Referencias</a>
+                            <a class="links-navegacao" onclick="onClickScroll('section-abilities')">Habilidades</a>
+                            <a class="links-navegacao" onclick="onClickScroll('section-portifolio')">Portifolio</a>
+                            <a class="links-navegacao" onclick="onClickScroll('section-experiencias')">Referencias</a>
                         </div>
-                        <button>CONTATO</button>
+                        <button onclick="onClickScroll('section-contact')">CONTATO</button>
                     </div>
                     <div class="hero-info">
                         <div class="hero-info-title">
                             <h1>Olá, muito prazer! <br>Meu nome é Bruno Jatobá</h1>
                             <p class="hero-info-subtitle">Programador desde 2021, com foco em desenvolvimento web e mobile, atuando em mais de 20 projetos.</p>
-                            <button>ENTRAR EM CONTATO</button>
+                            <button onclick="onClickScroll('section-contact')">ENTRAR EM CONTATO</button>
                             <div class="hero-info-icons-container">
                                 <a>
                                     <img class="hero-info-icons-image" src="icons/logo-github.png" alt="GitHub">
@@ -42,7 +43,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-abilities">
+                <section class="section-abilities" id="section-abilities">
                     <h2>Habilidades que</h2>
                     <h2 class="verde">domino</h2>
                     <div class="ability-card-container">
@@ -103,7 +104,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section portifolio">
+                <section class="section portifolio" id="section-portifolio">
                     <h2>Portfolio</h2>
                     <h2 class="verde">de Projetos</h2>
                     <div class="section-portfolio-grid">
@@ -148,7 +149,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-experiencias">
+                <section class="section-experiencias" id="section-experiencias">
                     <h2>Experiencias</h2>
                     <h2 class="verde">Profissionais</h2>
                     <div class="section-experiencias-card">
@@ -176,7 +177,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="section-contact">
+                <section class="section-contact" id="section-contact">
                     <h2>Como posso</h2>
                     <h2 class="verde">te Ajudar ?</h2>
                     <p>Estou à diposição para ajudar o seu projeto ou sua empresa.</p>
@@ -193,7 +194,6 @@
             </div>
         </div>
         <footer>
-            
             <div class="section-footer-content">
                 <h2 class="titulo-navegacao">Bruno Jatobá</h2>
                 <div class="section-footer-container">
