@@ -29,6 +29,9 @@ h5{
     margin: 0px;
 }
 
+a{
+    color: #1E1E1E
+}
 
 
 button{
@@ -362,6 +365,7 @@ h2.verde{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 16px;
 }
 
 .section-contact-item-icon{
