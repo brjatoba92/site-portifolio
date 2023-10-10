@@ -9,14 +9,29 @@
         padding-bottom: 200px;
     }
     .section-hero{
-        height: auto;
-        padding-bottom: 200px;
+        height: 56vh;
     }
     .hero-info{
         width: 100%;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        padding-bottom: 88px;
+        margin-top: 156px;
+    }
+
+    .hero-info-title{
+        font-size: 56px;
+        margin-top: 12px;
+    }
+
+    .hero-info-subtitle{
+        font-size: 32px;
+        line-height: 36px;
+        max-width: 70%;
+        margin-left: 140px;
+        margin-bottom: 40px;
+        
     }
 
     .hero-info-text-container{
@@ -31,12 +46,29 @@
 
 
     .hero-info-image{
-        width: 30vw;
+        width: 390px;
         height: auto;
     }
+
+    .hero-info-icons-image{
+        width: 56px;
+        height: 56px;
+    }
+
+    .hero-info-icons-container{
+        margin-top: 40px;
+        margin-left: 220px;
+        width: 60%;
+    }
+
     .section-footer-content{
         width: 100%;
     }
+
+    .section-abilities{
+        margin-top: 500px;
+    }
+
     .ability-card-container{
         row-gap: 36px;
         grid-template-columns: auto;
@@ -57,13 +89,12 @@
         font-size: 32px;
     }
     button{
-        height: 54px;
-        font-size: 18px;
+        height: 80px;
+        font-size: 24px;
         padding-left: 12px;
         padding-right: 12px;
     }
     h1{
         text-align: center;
-
     }
 }
