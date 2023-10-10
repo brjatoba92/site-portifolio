@@ -20,6 +20,8 @@ h2{
     color:#1E1E1E;
     margin: 0px;
     padding: 0px;
+    text-align: center;
+    justify-content: center;
 }
 
 h5{
@@ -229,6 +231,7 @@ h2.verde{
 .section-portifolio{
     display: flex;
     width: 100%;
+    
 }
 
 .portifolio-card-container{
