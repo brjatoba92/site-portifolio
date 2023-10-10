@@ -1,7 +1,7 @@
 @media only screen and (max-device-width: 450px) {
     .content-container{
-        width: 96vw;
-        max-width: 96vw;
+        width: 94vw;
+        max-width: 94vw;
     }
     .barra-navegacao{
         width: 100%;
@@ -67,13 +67,40 @@
 
     .section-abilities{
         margin-top: 500px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
     }
 
     .ability-card-container{
-        row-gap: 36px;
-        grid-template-columns: auto;
-        margin-top: 12px;
+        justify-content: space-between;
+        row-gap: 56px;
+        grid-template-columns: auto auto;
+        margin-top: 44px;
+        width: 100%;
     }
+
+    .ability-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 44vw;
+        height: auto;
+        padding-top: 16px;
+    }
+
+    h5{
+        font-size: 36px;
+    }
+
+    .ability-card-subtitle{
+        font-size: 24px;
+        margin: 12px;
+        text-align:center;
+        max-width: 70%;
+    }
+
+
     .section-experiencias-card{
         width: 90vw;
     }
@@ -96,5 +123,10 @@
     }
     h1{
         text-align: center;
+    }
+
+    h2{
+        line-height: 68px;
+        font-size: 64px;
     }
 }
