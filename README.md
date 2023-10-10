@@ -6,6 +6,9 @@ Initial project for the FrontEnd studies
 # Preview
 <img src="preview.png" height="500"/>
 
+## Live Link
+https://brjatoba92.github.io/site-portifolio/
+
 
 ## Aim
 The aim is the development of one website using the following technologies:
