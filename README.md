@@ -44,3 +44,19 @@ The website was building in the following divisions:
 
 7. Footer
 - End of the website page
+
+# Instruction to run:
+1. Clone the project
+```
+git clone git@github.com:brjatoba92/site-portifolio.git
+```
+
+2. After clone open the folder:
+```
+site-portifolio
+```
+
+3. Open the index file with the browser:
+```
+index.html
+```
