@@ -106,9 +106,32 @@
     }
     .section-portfolio-grid{
         row-gap: 36px;
-        grid-template-columns: auto;
-        margin-top: 24px;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        margin-top: 40px;
     }
+
+    .section-portfolio-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 46vw;
+        height: auto;
+        padding: 24px 0px;
+    }
+
+    .section-portfolio-card-icons{
+        width: 40px;
+        height: auto;
+    }
+
+    .section-portfolio-icons-container{
+        width: 40%;
+    }
+
+    
     .links-navegacao{
         display: none;
     }
